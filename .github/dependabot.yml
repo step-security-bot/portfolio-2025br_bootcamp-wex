@@ -42,3 +42,33 @@ updates:
     schedule:
       interval: "weekly"
       day: "saturday"
+
+  - package-ecosystem: docker
+    directory: /Bootcamp.Container/src
+    schedule:
+      interval: daily
+
+  - package-ecosystem: pip
+    directory: /Bootcamp.Container/src
+    schedule:
+      interval: daily
+
+  - package-ecosystem: nuget
+    directory: /src/Bootcamp.Abstracao
+    schedule:
+      interval: daily
+
+  - package-ecosystem: nuget
+    directory: /src/Bootcamp.Estacionamento/DesafioFundamentos
+    schedule:
+      interval: daily
+
+  - package-ecosystem: nuget
+    directory: /src/Bootcamp.Exemplo
+    schedule:
+      interval: daily
+
+  - package-ecosystem: nuget
+    directory: /src/Bootcamp.Hospedagem
+    schedule:
+      interval: daily
